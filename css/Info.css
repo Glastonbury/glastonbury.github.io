@@ -1,0 +1,72 @@
+/* No margin or padding. Choose font-family */
+body, nav{
+margin:0; /
+padding:0;
+font-family: Calibri, Arial;
+background-color:#FB374A;
+}
+
+
+img{
+border:0;
+max-width:100%; 
+}
+
+
+h1, h2, h3, .aligncentre{
+text-align:center;
+}
+
+#mainheading{
+	font-size: 40px;
+}
+
+p{
+text-align:center;
+padding:0 15px;
+}
+
+/* central main section */
+main{
+background-color:#D55DB6;
+max-width:1140px; 
+min-height:800px; 
+margin:0 auto; 
+padding:0 10px;
+}
+
+/* Set up navigation menu list */
+ul.menulist{
+	list-style-type: none; /* Remove Bullets */
+	/* Sets all margins to 0 but top one especially to 0 so sits top browser window */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FB374A;
+	min-width: 100px; /* Set minimum size of list set as blocks below */
+}
+
+li.menulist{
+float: left;
+}
+
+li.menulist a{
+	display:inline-block; /* Displays list as block */
+	color: #FFFFFF;
+	font-weight:bold; /* Set menu font bold */
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none; /* Removes hyperlink underline */
+	min-width: 158px; /* Set minimum size of list and anchor set as blocks */
+}
+
+li.menulist a:hover{
+	background-color: #D55DB6;
+}
+
+/* Set article minimum height; still auto to content above this height */
+article{
+min-height:500px;
+}
+
+
